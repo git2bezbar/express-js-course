@@ -2,6 +2,8 @@ require('dotenv').config();
 const express = require('express');
 const app = express();
 
+app.set('view engine', 'pug');
+
 const globalRouter = require('./routes/global');
 const shopRouter = require('./routes/shop');
 
