@@ -1,0 +1,16 @@
+{
+  "name": "express-js-course",
+  "version": "1.0.0",
+  "description": "🚀",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app"
+  },
+  "keywords": [],
+  "author": "Adem Duran",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
